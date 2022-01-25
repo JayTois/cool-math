@@ -1,0 +1,15 @@
+body{
+    background-color:rgb(4, 5, 68);
+}
+
+header{
+    /*contains the image*/
+    width: 34%;
+    margin:0 auto;
+    padding: 3em 0;
+}
+
+#head-section{
+    background-color: #2A455D;
+    height: 10em;
+}
