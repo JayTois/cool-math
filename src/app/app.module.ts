@@ -4,12 +4,14 @@ import { TopNavBarComponent } from 'src/app/navigation/topnavbar.component';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
+import { GameTileComponent } from './games/game.tile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavBarComponent,
-    FooterComponent
+    FooterComponent,
+    GameTileComponent
   ],
   imports: [
     BrowserModule

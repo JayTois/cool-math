@@ -1,0 +1,22 @@
+#game-tile{
+ background-color: rgb(4, 5, 68);
+ margin-left: 25em;
+}
+
+.card-title{
+   color: #29BFFD;
+}
+
+.card-title:hover{
+    text-decoration: underline;
+}
+
+.card-text{
+    color: white;
+}
+
+#game-logo{
+    /*perhaps find out a way to align the image..?*/
+    align-content: center;
+    border: 8px solid #2C6792;
+}
