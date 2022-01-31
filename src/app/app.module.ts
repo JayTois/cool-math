@@ -4,6 +4,7 @@ import { TopNavBarComponent } from 'src/app/navigation/topnavbar.component';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
+import { GameGenreComponent } from './games/game.genre.component';
 import { GameTileComponent } from './games/game.tile.component';
 
 @NgModule({
@@ -11,7 +12,8 @@ import { GameTileComponent } from './games/game.tile.component';
     AppComponent,
     TopNavBarComponent,
     FooterComponent,
-    GameTileComponent
+    GameTileComponent,
+    GameGenreComponent
   ],
   imports: [
     BrowserModule

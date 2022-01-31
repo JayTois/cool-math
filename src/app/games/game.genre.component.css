@@ -1,0 +1,23 @@
+#game-tile{
+    background-color: #2C6792;
+    margin-left: 25em;
+    border-radius: 5px;
+    height:120px;
+   }
+
+#game-tile:hover{
+    background-color: #3c88be;
+}
+
+.card-title{
+    color:white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 40px;
+    
+}
+
+#genre-icon{
+    margin-left: 30px;
+    margin-top: 15px;
+}
