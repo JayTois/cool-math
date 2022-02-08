@@ -22,13 +22,36 @@
     <fm-topnavbar>Loading...</fm-topnavbar>
 
     <div id="game-section">
-        <cm-game-tile>Loading...</cm-game-tile>
 
+        <div id="game-header">
+            NEW GAMES
+        </div>
 
-        <cm-game-genre>Loading...</cm-game-genre>
+        <div *ngFor="let game of games">
+            <cm-game-tile class="cardmb-3" img={{game.img}} title={{game.title}} description={{game.description}}>
+                Loading...
+            </cm-game-tile>
+        </div>
+
+        <div id="genre-header">
+            POPULAR CATEGORIES
+        </div>
+
+        <div id="margin">
+
+            <div *ngFor="let genre of genres">
+                <cm-game-genre class="cardmb-3" img={{genre.img}} title={{genre.title}}>
+                    Loading...
+                </cm-game-genre>
+            </div>
+
+        </div>
+
     </div>
 
-    <cm-footer>Loading...</cm-footer>
+    <div class="footer">
+        <cm-footer>Loading...</cm-footer>
+    </div>
 
 </body>
 

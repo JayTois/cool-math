@@ -14,3 +14,31 @@ header{
     height: 10em;
 }
 
+#game-header{
+    background-color: #2C6792;
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+    border-radius: 6px;
+    width: 28%;
+    margin: 5px 0;
+    margin-left: 24.8em;
+    padding-left: 10px;
+}
+
+#genre-header{
+    background-color: #2C6792;
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+    border-radius: 6px;
+    width: 59%;
+    margin: 10px 0;
+    margin-left: 23em;
+    padding-left: 10px;
+    }
+
+.footer{
+    padding-top: 300px;
+}
+
