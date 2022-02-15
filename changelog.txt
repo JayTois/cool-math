@@ -1,9 +1,14 @@
-2/8/2022
+2/15/2022
 
 Main Features
    - Added routing for the Trivia Button in the navbar (trivia.layout.component)
    - Added routing for the Playlists Button in the navbar (playlists.layout.component)
    - Added routing for the Box Factory game! (box-factory-game-component.html)
-   - Barely added an about us section :(
 
+Bonus
+   -Kind of misunderstand the lab assignment, but I was able to create these 3 different pages
+   with different components for each one.
+
+   In short, if I realized all we had to do was create 5 different buttons that led to links,
+   I wouldnt've made the those components. I guess its bonus now though so its ok
 
