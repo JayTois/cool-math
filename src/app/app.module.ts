@@ -10,7 +10,7 @@ import { AppRoutingModule } from './games/app-routing.module';
 import { PlaylistsComponent } from './games/playlists-layout.component';
 import { HomeLayoutComponent } from './games/home-layout.component';
 import { TriviaComponent } from './games/trivia-layout.component';
-import { BoxFactory } from './games/box-factory-game.component';
+import { BoxFactoryComponent } from './games/box-factory-game.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,7 @@ import { BoxFactory } from './games/box-factory-game.component';
     PlaylistsComponent,
     HomeLayoutComponent,
     TriviaComponent,
-    BoxFactory
+    BoxFactoryComponent
   ],
   imports: [
     BrowserModule,

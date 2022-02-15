@@ -1,9 +1,9 @@
 2/8/2022
 
 Main Features
-    - Changed my game.tile.component to be object-oriented, and use loops
-    - so now all i have to do is add an image, title, and description and its golden
-    - This was done by adding two new TS files. One including a list of objects, and another with a constructor for it.
+   - Added routing for the Trivia Button in the navbar
+   - Added routing for the Playlists Button in the navbar
+   - Added routing for the Box Factory game!
+   - Barely added an about us section :(
 
-Bonus
-    - I did the exact same thing for my game.genre.component. no more copying and pasting html stuff!
+
