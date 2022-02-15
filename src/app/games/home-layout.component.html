@@ -1,0 +1,34 @@
+<body>
+
+    
+
+    <div id="game-section">
+
+        <div id="game-header">
+            NEW GAMES
+        </div>
+
+        <div *ngFor="let game of games">
+            <cm-game-tile class="cardmb-3" img={{game.img}} title={{game.title}} description={{game.description}}>
+                Loading...
+            </cm-game-tile>
+        </div>
+
+        <div id="genre-header">
+            POPULAR CATEGORIES
+        </div>
+
+        <div id="margin">
+
+            <div *ngFor="let genre of genres">
+                <cm-game-genre class="cardmb-3" img={{genre.img}} title={{genre.title}}>
+                    Loading...
+                </cm-game-genre>
+            </div>
+
+        </div>
+
+    </div>
+
+   
+</body>

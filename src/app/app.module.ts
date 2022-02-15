@@ -6,6 +6,11 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { GameGenreComponent } from './games/game.genre.component';
 import { GameTileComponent } from './games/game.tile.component';
+import { AppRoutingModule } from './games/app-routing.module';
+import { PlaylistsComponent } from './games/playlists-layout.component';
+import { HomeLayoutComponent } from './games/home-layout.component';
+import { TriviaComponent } from './games/trivia-layout.component';
+import { BoxFactory } from './games/box-factory-game.component';
 
 @NgModule({
   declarations: [
@@ -13,10 +18,15 @@ import { GameTileComponent } from './games/game.tile.component';
     TopNavBarComponent,
     FooterComponent,
     GameTileComponent,
-    GameGenreComponent
+    GameGenreComponent,
+    PlaylistsComponent,
+    HomeLayoutComponent,
+    TriviaComponent,
+    BoxFactory
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

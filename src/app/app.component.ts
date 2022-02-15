@@ -12,16 +12,7 @@ import { genre_items } from './games/genre_list_items';
 
 export class AppComponent {
   title = 'cool-math';
-  games: GameModel[] = [];
-  genres: GenreModel [] = [];
+  
 
-  constructor(){
-    for(var game of game_items){
-      this.games.push(game);
-    }
-    for(var genre of genre_items){
-      console.log(genre)
-      this.genres.push(genre);
-    }
-  }
+  
 }

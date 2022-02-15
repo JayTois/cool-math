@@ -5,55 +5,30 @@
     <title>Cool Math Games</title>
 </head>
 
-<link type="text/css" rel="stylesheet" href="app.component.css">
+<div id="head-section">
 
-<body>
+    <header>
 
-    <div id="head-section">
+        <img routerLink="home" src="/assets/cool-math-logo.svg" id="cool-math-logo">
 
-        <header>
+    </header>
 
-            <img src="/assets/cool-math-logo.svg" id="cool-math-logo">
+</div>
 
-        </header>
-
-    </div>
+<div id="background">
 
     <fm-topnavbar>Loading...</fm-topnavbar>
 
-    <div id="game-section">
+    <link type="text/css" rel="stylesheet" href="app.component.css">
 
-        <div id="game-header">
-            NEW GAMES
-        </div>
+    <router-outlet>
 
-        <div *ngFor="let game of games">
-            <cm-game-tile class="cardmb-3" img={{game.img}} title={{game.title}} description={{game.description}}>
-                Loading...
-            </cm-game-tile>
-        </div>
-
-        <div id="genre-header">
-            POPULAR CATEGORIES
-        </div>
-
-        <div id="margin">
-
-            <div *ngFor="let genre of genres">
-                <cm-game-genre class="cardmb-3" img={{genre.img}} title={{genre.title}}>
-                    Loading...
-                </cm-game-genre>
-            </div>
-
-        </div>
-
-    </div>
+    </router-outlet>
 
     <div class="footer">
         <cm-footer>Loading...</cm-footer>
     </div>
 
-</body>
-
+</div>>
 
 </html>

@@ -1,4 +1,4 @@
-#background{
+body{
     background-color:rgb(4, 5, 68);
 }
 
@@ -38,7 +38,4 @@ header{
     padding-left: 10px;
     }
 
-.footer{
-    padding-top: 300px;
-}
 
