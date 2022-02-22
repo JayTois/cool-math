@@ -1,14 +1,12 @@
-2/15/2022
+2/22/2022
 
 Main Features
-   - Added routing for the Trivia Button in the navbar (trivia.layout.component)
-   - Added routing for the Playlists Button in the navbar (playlists.layout.component)
-   - Added routing for the Box Factory game! (box-factory-game-component.html)
+   - Added routing for the Daily Games Component
+   - Attempted to add an ng for loop for the above component but miserably failed
+   - Because of this I wasnt able to do NG For loops for the other ones either
+   - I have 3 other components, though you graded these for last lab so i dont know if you're willing to grade them again
 
-Bonus
-   -Kind of misunderstand the lab assignment, but I was able to create these 3 different pages
-   with different components for each one.
+   - If it helps my power went out while I was working on this and I wasted an hour driving to campus
 
-   In short, if I realized all we had to do was create 5 different buttons that led to links,
-   I wouldnt've made the those components. I guess its bonus now though so its ok
+
 

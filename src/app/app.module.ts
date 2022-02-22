@@ -11,6 +11,9 @@ import { PlaylistsComponent } from './games/playlists-layout.component';
 import { HomeLayoutComponent } from './games/home-layout.component';
 import { TriviaComponent } from './games/trivia-layout.component';
 import { BoxFactoryComponent } from './games/box-factory-game.component';
+import { DailyGamesComponent } from './games/daily-games.component';
+import { DailyLayoutComponent } from './games/daily-games.layout.component';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +25,9 @@ import { BoxFactoryComponent } from './games/box-factory-game.component';
     PlaylistsComponent,
     HomeLayoutComponent,
     TriviaComponent,
-    BoxFactoryComponent
+    BoxFactoryComponent,
+    DailyGamesComponent,
+    DailyLayoutComponent
   ],
   imports: [
     BrowserModule,
