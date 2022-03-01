@@ -13,6 +13,8 @@ import { TriviaComponent } from './games/trivia-layout.component';
 import { BoxFactoryComponent } from './games/box-factory-game.component';
 import { DailyGamesComponent } from './games/daily-games.component';
 import { DailyLayoutComponent } from './games/daily-games.layout.component';
+import { UserInfoComponent } from './user-info/user-info.component';
+import { HttpClientModule } from '@angular/common/http'
 
 
 @NgModule({
@@ -27,11 +29,13 @@ import { DailyLayoutComponent } from './games/daily-games.layout.component';
     TriviaComponent,
     BoxFactoryComponent,
     DailyGamesComponent,
-    DailyLayoutComponent
+    DailyLayoutComponent,
+    UserInfoComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

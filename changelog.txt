@@ -1,12 +1,12 @@
-2/22/2022
+3/1/2022
 
 Main Features
-   - Added routing for the Daily Games Component
-   - Attempted to add an ng for loop for the above component but miserably failed
-   - Because of this I wasnt able to do NG For loops for the other ones either
-   - I have 3 other components, though you graded these for last lab so i dont know if you're willing to grade them again
+   -Added backend for the website!
+   -Created database with my first, last, mix, and github
+   -Connected my frontend with my backend, as shown in the images
 
-   - If it helps my power went out while I was working on this and I wasted an hour driving to campus
+Bonus
+-Made sure the backend info was aligned correctly at the top
 
 
 
