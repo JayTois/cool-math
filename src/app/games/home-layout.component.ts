@@ -1,10 +1,8 @@
 import { Component } from "@angular/core";
 import { GameModel } from "./game-list-model";
 import { GamesService } from "./games.service";
-import { game_items } from "./game_list_items";
 import { GenreModel } from "./genre-list-model";
 import { GenreService } from "./genre.service";
-import { genre_items } from "./genre_list_items";
 
 @Component({
     selector: 'cm-home-layout',
