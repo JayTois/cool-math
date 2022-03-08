@@ -6,6 +6,6 @@ Main Features
 
 
 Bonus
-
+   -Did the exact same thing for the game.genre.component! no more need for the genre_item_list.ts file either!
 
 
