@@ -1,12 +1,11 @@
-3/1/2022
+3/8/2022
 
 Main Features
-   -Added backend for the website!
-   -Created database with my first, last, mix, and github
-   -Connected my frontend with my backend, as shown in the images
+   -Created an array for the game.tile.component using the backend server! now it uses the backend
+   -No more need for the game_list_items.ts file
+
 
 Bonus
--Made sure the backend info was aligned correctly at the top
 
 
 
