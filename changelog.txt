@@ -1,12 +1,9 @@
 3/8/2022
 
 Main Features
-   -Created an array for the game.tile.component using the backend server! now it uses the backend
-   -No more need for the game_list_items.ts file
-   -Deleted the game_list_items.ts file and the genre_item_list.ts file
-
-
+   -Officially deployed the website using firebase!
+   -Was able to connect the RTDB using firebase instead of HTTPClient for games.service.ts
 Bonus
-   -Did the exact same thing for the game.genre.component! no more need for the genre_item_list.ts file either!
+   -Did the exact same thing for the genre.service.ts
 
 
