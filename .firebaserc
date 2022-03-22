@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "cool-math-e891e"
+  },
+  "targets": {
+    "cool-math-e891e": {
+      "hosting": {
+        "cool-math": [
+          "cool-math-e891e"
+        ]
+      }
+    }
+  }
+}
