@@ -20,4 +20,8 @@ export class GamesService {
         return this.db.list<GameModel>("games").valueChanges();
     }
 
+    addProduct(game: GameModel){
+        this.db.list<GameModel>("games").push(game);
+    }
+
 }

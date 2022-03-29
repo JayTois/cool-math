@@ -6,6 +6,7 @@ import { HomeLayoutComponent } from './home-layout.component';
 import { TriviaComponent } from './trivia-layout.component';
 import { BoxFactoryComponent } from './box-factory-game.component';
 import { DailyLayoutComponent } from './daily-games.layout.component';
+import { AddGameComponent } from '../admin/add-game/add-game.component';
 
 const routes:Routes = [
   {path: '', component: HomeLayoutComponent},
@@ -13,7 +14,8 @@ const routes:Routes = [
   {path: 'home', component: HomeLayoutComponent},
   {path: 'Trivia', component: TriviaComponent},
   {path: 'Box-Factory', component: BoxFactoryComponent},
-  {path: 'Daily-Games', component: DailyLayoutComponent}
+  {path: 'Daily-Games', component: DailyLayoutComponent},
+  {path: 'Admin', component: AddGameComponent}
 ];
 
 @NgModule({

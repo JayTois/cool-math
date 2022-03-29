@@ -9,9 +9,11 @@ import { UserInfo } from './user-info.model';
   styleUrls: ['./user-info.component.css']
 })
 export class UserInfoComponent implements OnInit {
-  myInfo: UserInfo | undefined;
+  myInfo!: UserInfo;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) { 
+    
+  }
 
   ngOnInit(): void {
     console.log("Sending request to server...");

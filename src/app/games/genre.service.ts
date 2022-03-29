@@ -9,8 +9,8 @@ import { AngularFireDatabase } from '@angular/fire/compat/database';
 })
 
 export class GenreService {
-    private baseUrl: string = "https://cool-math-e891e-default-rtdb.firebaseio.com/"
-    private gamesEndpoint: string = "genres.json"
+  //  private baseUrl: string = "https://cool-math-e891e-default-rtdb.firebaseio.com/"
+   // private gamesEndpoint: string = "genres.json"
 
     constructor(private db : AngularFireDatabase) {
         

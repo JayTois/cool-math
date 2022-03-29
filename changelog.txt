@@ -1,9 +1,9 @@
-3/8/2022
+3/29/2022
 
 Main Features
-   -Officially deployed the website using firebase!
-   -Was able to connect the RTDB using firebase instead of HTTPClient for games.service.ts
-Bonus
-   -Did the exact same thing for the genre.service.ts
+   -Created an admin page that is capable of adding new components for the games on the home page!
+   -The entered data also goes to the backend!
 
+Bonus
+   -Added a feature that prevents the admin from entering a game in unless all 3 parameters are filled
 
