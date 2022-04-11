@@ -22,6 +22,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddGameComponent } from './admin/add-game/add-game.component';
 import { FormsModule } from '@angular/forms';
+import { AuthComponent } from 'src/auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { FormsModule } from '@angular/forms';
     DailyGamesComponent,
     DailyLayoutComponent,
     UserInfoComponent,
-    AddGameComponent
+    AddGameComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,

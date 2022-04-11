@@ -8,7 +8,8 @@
       "target": "cool-math",
       "public": "dist/cool-math",
       "ignore": [
-        "**/.*"
+        "**/.*",
+        "**/node_modules/**"
       ],
       "headers": [
         {
