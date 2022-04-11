@@ -1,9 +1,6 @@
-3/29/2022
+4/12/2022
 
 Main Features
-   -Created an admin page that is capable of adding new components for the games on the home page!
-   -The entered data also goes to the backend!
-
-Bonus
-   -Added a feature that prevents the admin from entering a game in unless all 3 parameters are filled
+- Added a login feature that authenticates a user from the backend!
+- Added a sign in feature that registers new users to the backend!
 
