@@ -1,6 +1,6 @@
-4/12/2022
+4/13/2022
 
 Main Features
-- Added a login feature that authenticates a user from the backend!
-- Added a sign in feature that registers new users to the backend!
+- Added 7 Different tests! They all check if the components are created
+- I checked with a TA (ethan) and we were not able to figure out why game.title.component's test doesnt work
 

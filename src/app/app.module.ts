@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { TopNavBarComponent } from 'src/app/navigation/topnavbar.component';
-
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { GameGenreComponent } from './games/game.genre.component';
@@ -15,9 +14,7 @@ import { DailyGamesComponent } from './games/daily-games.component';
 import { DailyLayoutComponent } from './games/daily-games.layout.component';
 import { UserInfoComponent } from './user-info/user-info.component';
 import { HttpClientModule } from '@angular/common/http';
-import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
-import { provideDatabase,getDatabase } from '@angular/fire/database'
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddGameComponent } from './admin/add-game/add-game.component';

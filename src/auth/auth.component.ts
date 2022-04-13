@@ -11,7 +11,7 @@ import { AuthResponse } from "./authResponse";
 
 export class AuthComponent {
     public buttonClicked!: string;
-    private authObservable!: Observable<AuthResponse>;
+    private authObservable!: Observable<any>;
     
 
     constructor(private authService: AuthService) {
@@ -25,7 +25,7 @@ export class AuthComponent {
             this.authObservable = this.authService.signup(data.value.email, data.value.password);
         }
         if(this.buttonClicked == 'Login'){
-            this.authObservable = this.authService.signup(data.value.email, data.value.password);
+            this.authObservable = this.authService.login(data.value.email, data.value.password);
         }
         
 

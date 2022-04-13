@@ -7,7 +7,7 @@ import { GamesService } from "./games.service";
     styleUrls: ['game.tile.component.css']
 
 })
-export class GameTileComponent {
+export class GameTileComponent implements OnInit{
     @Input() img: string;
     @Input() title: string;
     @Input() description: string;
@@ -16,6 +16,8 @@ export class GameTileComponent {
         this.img = "";
         this.title = "Missing Title";
         this.description = "Missing Description"
+    }
+    ngOnInit(): void {
     }
 
     //  ngOnInit(): void {
